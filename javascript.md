@@ -1,5 +1,5 @@
 ## 1，考察对对象的理解
-`js
+`javascript
 window.obj = {
     a: 1
 }
