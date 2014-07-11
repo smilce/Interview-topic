@@ -1,5 +1,5 @@
 ## 1，考察对对象的理解
-`javascript
+```javascript
 window.obj = {
     a: 1
 }
@@ -14,7 +14,7 @@ obj2 = {
 }
 obj2.c = 3;
 console.log(obj);
-`
+```
 
 ## 2，考察变量声明
 var a = 2;
