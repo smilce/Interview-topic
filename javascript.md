@@ -72,20 +72,6 @@ a(3,4,5) // 15;
 a(6) // 21;
 ```
 
-function sum(){
-    var _nums = [];
-    var _sum = function(){
-        _nums.push.apply(_nums, Array.prototype.slice.call(arguments));
-    }
-    _nums.push.apply(_nums, Array.prototype.slice.call(arguments));
-    _sum.toString = function(){
-        return _nums.reduce(function(prev, arg){
-            return prev+arg;
-        }, 0)
-    }
-    return _sum;
-}
-
 ### 5,考察原型链
 写一个函数a，使它的继承结构如下：
 ```javascript
