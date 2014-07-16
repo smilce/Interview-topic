@@ -7,13 +7,13 @@
 7.  实现一下文档结构，最好的实现方式是什么
 
 
-<dl>
-  <dt>javascript</dt>
-  <dd>javascript是一门编程语言</dd>
-  <dt>vim</dt>
-  <dd>vim是一种编辑器</dd>
-  <dt>centos</dt>
-  <dd>centos是操作系统的一种</dd>
-</dl>
+    <dl>
+      <dt>javascript</dt>
+      <dd>javascript是一门编程语言</dd>
+      <dt>vim</dt>
+      <dd>vim是一种编辑器</dd>
+      <dt>centos</dt>
+      <dd>centos是操作系统的一种</dd>
+    </dl>
 
 8.  有哪些元素有src属性
